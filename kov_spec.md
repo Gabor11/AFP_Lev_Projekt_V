@@ -13,7 +13,10 @@ tulajdonosát fel kell kutatni. Jelenleg nincs számontartva, hogy melyik lakóh
 egy lakó (akit jogosan illeti a lakásához tartozó parkírozó hely) nem tud leparkolni. Ilyenkor aztán a közös képviselő az összes lakót egyesével otthonában felkeresi
 és az ismeretlen jármű tulajdonviszonyairól kérdezi őket. Ha megvan a parkolóhelyet bitorló személy, azt felszólítja az udvarról való távozásra.
 
-## 3. Vágyálom rendszer 
+## 3. Vágyálom rendszer
+**3.1. Hatáskör - felhasználók**
+
+A belépésre jogosultakat a mindenkori közös képviselő jelölné ki, a kezdeti felhasználóneveket és jelszavakat is tőle kaphatnák.
 
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
