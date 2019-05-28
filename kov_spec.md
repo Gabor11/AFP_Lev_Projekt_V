@@ -18,6 +18,22 @@ egy lakó (akit jogosan illeti a lakásához tartozó parkírozó hely) nem tud 
 
 A belépésre jogosultakat a mindenkori közös képviselő jelölné ki, a kezdeti felhasználóneveket és jelszavakat is tőle kaphatnák.
 
+**3.2. Funkciók**
+
+Bejelentkezés után a felhasználók (az adott ház lakói)
+- megváltoztathatják a jelszavukat
+- felvehetnek a nevükhöz új gépjárműveket
+- a gépjárművek adatait kellőképpen részletesen lehessen megadni, hogy beazonosításuk sikeres lehessen
+- a gépjárművek (gépkocsi, motorkerékpár) mellett megadható legyen, hogy melyik lakáshoz tartozik a felhasználó
+
+**3.3. Indulás, jövőbeni fejlesztések, távlatok**
+
+Az alap szoftver, amire mindenképp szükség lenne, az azt teszi lehetővé, hogy a személyek és gépjárművek megfelelő módon,
+rögzítésre kerülhessenek és az illetékes személy megtekinthesse a nyílvántartást.
+A későbbiekben jó lenne, ha a közös képviselő rögzíthetné, hogy kinek a hibájából történt esetleg fennakadás.
+Lehetőség lenne a jövőben új funkciókat beiktatni, ha van rá igény. Kiterjeszthető lenne a rendszer a lépcsőház takarítási rendjére,
+a pincében lévő tárolók használatára vagy egyéb közérdekű információk tárolására.
+
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 ## 5. Jelenlegi üzleti folyamatok modellje
