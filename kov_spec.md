@@ -12,9 +12,9 @@ A fejlesztendő rendszer célja egy bővebb lakóközösség (lépcsőház) köz
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 ## 5. Jelenlegi üzleti folyamatok modellje
-
+![](images/jelenlegi_modell.png)
 ## 6. Igényelt üzleti folyamatok
-
+![](images/igenyelt_modell.png)
 ## 7. Követelmény Lista
 
 ## 8. Riportok
