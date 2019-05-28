@@ -6,6 +6,12 @@ A fejlesztendő rendszer célja egy bővebb lakóközösség (lépcsőház) köz
  rendszer segíthet, ahol az arra illetékesek beregisztrálhatják gépjárműveiket, amikkel az udvaron lévő parkolóhelyeken meg szeretnének állni.
 
 ## 2. Jelenlegi helyzet
+A jelenlegi helyzet kaotikus. A Budapest 6. kerületi Bajza utca 62. szám alatti társasház udvarára boldog-boldogtalan beáll az aktuális gépjárműjével, ami teljességgel
+ellentmond a közösség érdekének, mivel a lakók nem mindig tudnak beállni a számukra fenntartott helyre, ha valaki beáll oda. Ez sok konfliktushoz vezet.
+A mai világban, amikor már nem mindenki ismeri a szomszédját, a társasház egyes lakásaiban bérlők laknak, igazán kényelmetlen tud lenni, ha az ott parkoló ismeretlen autó
+tulajdonosát fel kell kutatni. Jelenleg nincs számontartva, hogy melyik lakóhoz melyik gépjárművek tartoznak, így csak akkor lehet fellépni, ha már kialakult a baj, vagyis
+egy lakó (akit jogosan illeti a lakásához tartozó parkírozó hely) nem tud leparkolni. Ilyenkor aztán a közös képviselő az összes lakót egyesével otthonában felkeresi
+és az ismeretlen jármű tulajdonviszonyairól kérdezi őket. Ha megvan a parkolóhelyet bitorló személy, azt felszólítja az udvarról való távozásra.
 
 ## 3. Vágyálom rendszer 
 
