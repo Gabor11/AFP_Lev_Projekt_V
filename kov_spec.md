@@ -6,8 +6,33 @@ A fejlesztendő rendszer célja egy bővebb lakóközösség (lépcsőház) köz
  rendszer segíthet, ahol az arra illetékesek beregisztrálhatják gépjárműveiket, amikkel az udvaron lévő parkolóhelyeken meg szeretnének állni.
 
 ## 2. Jelenlegi helyzet
+A jelenlegi helyzet kaotikus. A Budapest 6. kerületi Bajza utca 62. szám alatti társasház udvarára boldog-boldogtalan beáll az aktuális gépjárműjével, ami teljességgel
+ellentmond a közösség érdekének, mivel a lakók nem mindig tudnak beállni a számukra fenntartott helyre, ha valaki beáll oda. Ez sok konfliktushoz vezet.
+A mai világban, amikor már nem mindenki ismeri a szomszédját, a társasház egyes lakásaiban bérlők laknak, igazán kényelmetlen tud lenni, ha az ott parkoló ismeretlen autó
+tulajdonosát fel kell kutatni. Jelenleg nincs számontartva, hogy melyik lakóhoz melyik gépjárművek tartoznak, így csak akkor lehet fellépni, ha már kialakult a baj, vagyis
+egy lakó (akit jogosan illeti a lakásához tartozó parkírozó hely) nem tud leparkolni. Ilyenkor aztán a közös képviselő az összes lakót egyesével otthonában felkeresi
+és az ismeretlen jármű tulajdonviszonyairól kérdezi őket. Ha megvan a parkolóhelyet bitorló személy, azt felszólítja az udvarról való távozásra.
 
-## 3. Vágyálom rendszer 
+## 3. Vágyálom rendszer
+**3.1. Hatáskör - felhasználók**
+
+A belépésre jogosultakat a mindenkori közös képviselő jelölné ki, a kezdeti felhasználóneveket és jelszavakat is tőle kaphatnák.
+
+**3.2. Funkciók**
+
+Bejelentkezés után a felhasználók (az adott ház lakói)
+- megváltoztathatják a jelszavukat
+- felvehetnek a nevükhöz új gépjárműveket
+- a gépjárművek adatait kellőképpen részletesen lehessen megadni, hogy beazonosításuk sikeres lehessen
+- a gépjárművek (gépkocsi, motorkerékpár) mellett megadható legyen, hogy melyik lakáshoz tartozik a felhasználó
+
+**3.3. Indulás, jövőbeni fejlesztések, távlatok**
+
+Az alap szoftver, amire mindenképp szükség lenne, az azt teszi lehetővé, hogy a személyek és gépjárművek megfelelő módon,
+rögzítésre kerülhessenek és az illetékes személy megtekinthesse a nyílvántartást.
+A későbbiekben jó lenne, ha a közös képviselő rögzíthetné, hogy kinek a hibájából történt esetleg fennakadás.
+Lehetőség lenne a jövőben új funkciókat beiktatni, ha van rá igény. Kiterjeszthető lenne a rendszer a lépcsőház takarítási rendjére,
+a pincében lévő tárolók használatára vagy egyéb közérdekű információk tárolására.
 
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
