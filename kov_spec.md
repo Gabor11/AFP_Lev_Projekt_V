@@ -35,6 +35,9 @@ Lehetőség lenne a jövőben új funkciókat beiktatni, ha van rá igény. Kite
 a pincében lévő tárolók használatára vagy egyéb közérdekű információk tárolására.
 
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
+**4.1. Szerzői jogszabályok:**
+- A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet. (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+- Licenszerződés(amennyiben van)
 
 ## 5. Jelenlegi üzleti folyamatok modellje
 ![](images/jelenlegi_modell.png)
