@@ -4,7 +4,10 @@ A követelményspecifikációban megfogalmazott feladatok elkészítés több ü
 Az ütemterv első része az alábbiakat tartalmazza.	
 
 ## A rendszerrel szemben támasztott általános követelmények
-
+	- Adatbázis használata.
+	- Bármilyen szintű hozzáférés a rendszerhez csak is bejelentkezés után.
+	- Szabad regisztráció.
+	- Logolás lehetősége.
 
 ## Az alkalmazásokkal szemben támasztott funkcionális követelmények
 
