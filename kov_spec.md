@@ -41,7 +41,11 @@ a pincében lévő tárolók használatára vagy egyéb közérdekű informáci�
 ## 6. Igényelt üzleti folyamatok
 ![](images/igenyelt_modell.png)
 ## 7. Követelmény Lista
-
+  - Mindenki számára elérhető regisztrációs felület.
+  - Adatok frissítése/törlése egyszerűen.
+  - Platform független.
+  - Listázás lehetősége.
+  - Logok készítése. 
 ## 8. Riportok
 
 ## 9. Fogalomszótár
