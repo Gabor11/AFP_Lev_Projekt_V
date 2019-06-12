@@ -10,7 +10,10 @@ Az ütemterv első része az alábbiakat tartalmazza.
 	- Logolás lehetősége.
 
 ## Az alkalmazásokkal szemben támasztott funkcionális követelmények
-
+	- Grafikus felület.
+	- Listázás lehetősége.
+	- Webes hozzáférés.
+	- Távoli elérés.
 
 ## Funkcionális követelmények
 
