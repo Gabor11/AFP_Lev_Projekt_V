@@ -6,11 +6,12 @@ Az ütemterv első része az alábbiakat tartalmazza.
 ## A rendszerrel szemben támasztott általános követelmények
 	- Adatbázis használata.
 	- Bármilyen szintű hozzáférés a rendszerhez csak is bejelentkezés után.
-	- Szabad regisztráció.
 	- Logolás lehetősége.
 
 ## Az alkalmazásokkal szemben támasztott funkcionális követelmények
-
+	- Grafikus felület.
+	- Távoli hozzáférés.
+	- Listázás.
 
 ## Funkcionális követelmények
 	- Bejelentkezés
@@ -38,7 +39,7 @@ x - Hardver elemekkel kapcsolatos követelmények
 --------------------------------------
 
 ## Adatbázis terv
-
+	
 
 		
 ##Funkció terv
