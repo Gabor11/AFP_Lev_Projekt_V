@@ -10,17 +10,22 @@ Az ütemterv első része az alábbiakat tartalmazza.
 	- Logolás lehetősége.
 
 ## Az alkalmazásokkal szemben támasztott funkcionális követelmények
-	- Grafikus felület.
-	- Listázás lehetősége.
-	- Webes hozzáférés.
-	- Távoli elérés.
+
 
 ## Funkcionális követelmények
-
+	- Bejelentkezés
+	- CRUD műveletek
+	- Adatbázis elérése
+	- Listázás
+		
+		
+		
 
 
 ## Felülettel szemben támasztott követelmények
-
+	- Adatok felvitele táblázatba
+	- Adatok rögzítése MySQL adatbázisba
+	- Adatok listázása
 
 **Tesztanyagok:**
 
