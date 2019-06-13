@@ -1,6 +1,15 @@
 <?php
     $query = "SELECT name,age FROM irldatas WHERE userID = :userID";
     $params = [':userID' => $_SESSION['uid']];
+
+    $data = getRecord($query,$params); 
+    
+    $query_2 = "SELECT count(*) FROM CARS WHERE owner = :userID";
+    $data_2 = getRecord($query_2, $params);
+    $query_3 = "SELECT count(*) FROM MOTORCYCLES WHERE owner = :userID";
+    $data_3 = getRecord($query_3, $params);
+    $query_4 = "SELECT count(*) FROM HOUSES WHERE owner = :userID";
+    $data_4 = getRecord($query_4, $params);
 ?>
 
 <h3>Személyes adatok:</h3>
