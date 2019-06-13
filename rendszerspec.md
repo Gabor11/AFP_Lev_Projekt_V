@@ -39,7 +39,8 @@ x - Hardver elemekkel kapcsolatos követelmények
 --------------------------------------
 
 ## Adatbázis terv
-	
+	- EER diagram:
+	![](images/dataBase.png)
 
 		
 ##Funkció terv
