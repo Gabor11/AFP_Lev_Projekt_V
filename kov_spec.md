@@ -37,7 +37,7 @@ a pincében lévő tárolók használatára vagy egyéb közérdekű informáci�
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 **4.1. Szerzői jogszabályok:**
 - A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet. (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
-- Licenszerződés(amennyiben van)
+- Licencszerződés(amennyiben van)
 
 ## 5. Jelenlegi üzleti folyamatok modellje
 ![](images/jelenlegi_modell.png)
@@ -52,3 +52,8 @@ a pincében lévő tárolók használatára vagy egyéb közérdekű informáci�
 ## 8. Riportok
 
 ## 9. Fogalomszótár
+- a "rendszer": a megvalósítandó webes felülettel rendelkező szoftvert értjük alatta
+- "szoftver": számítógépes program
+- "listázás": a gépjárművek felsoroltatása
+- "log": a működéssel kapcsolatos, időponthoz rendelt adat.
+- "licenc": a szoftver használatára feljogosító dokumentum, amely a tulajdonjogi és használati viszonyokat tárgyalja
