@@ -1,3 +1,21 @@
+if(array_key_exists('login', $_POST)){
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    
+    if(!empty($username) && !empty($password)){
+        if(Login($username, $password)){
+            header('Location:'.ADMIN_URL.'?F=welcome');
+            Welcome($_SESSION['uid']);
+        }
+        else{
+            echo 'Hibás bejeltkezési adatok!';
+        }
+    }
+    else {
+        echo 'Hiányzó adatok!';
+    }
+}
+?>
 <form method="POST">
             <label>Felhasználónév:</label><br/>
             <input type="text" name="username"/><br/>
