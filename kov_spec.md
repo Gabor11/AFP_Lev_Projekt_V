@@ -49,9 +49,7 @@ a pincében lévő tárolók használatára vagy egyéb közérdekű informáci�
   - Platform független.
   - Listázás lehetősége.
   - Logok készítése. 
-## 8. Riportok
-
-## 9. Fogalomszótár
+## 8. Fogalomszótár
 - a "rendszer": a megvalósítandó webes felülettel rendelkező szoftvert értjük alatta
 - "szoftver": számítógépes program
 - "listázás": a gépjárművek felsoroltatása
