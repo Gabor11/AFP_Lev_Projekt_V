@@ -1,5 +1,6 @@
 <?php
     session_start();
+	require_once '../protected/configs/admin_config.php';
     
 ?>
 
@@ -13,4 +14,3 @@
 
     
 </html>
-
