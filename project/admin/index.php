@@ -12,11 +12,18 @@
         </title>  
         <link href="../styles.css" type="text/css" rel="stylesheet">
     </head>
+	<div id="header" class="l_header">
+
+    </div>
     <div id="menu" class="menu" >
         <?php require_once M_INTERFACES.'menu.php'; ?>
     </div>
     <div id="content" class="content">
         <?php require_once M_INTERFACES.'content.php';?>
+    </div>
+	
+	<div id="footer" class="a_footer">
+
     </div>
     
 </html>
