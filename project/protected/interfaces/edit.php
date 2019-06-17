@@ -67,3 +67,52 @@ if(array_key_exists('updateBike', $_POST)){
     
 }
 
+if(array_key_exists('new_house_add', $_POST)){
+    $query = "INSERT INTO houses(size,owner) VALUES('".$_POST['new_house_size']."','".$_SESSION['uid']."')";
+    executeDML("CALL Log('INSERT','houses',".$_SESSION['uid'].")");
+    $success= executeDML($query);
+    if($success){
+        echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+    }
+    else{
+        echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+    }
+}
+
+if(array_key_exists('new_car_add', $_POST)){
+    $query = "INSERT INTO cars (idCars,color,brand,owner) "
+            . "VALUES('".$_POST['idCar']."','".$_POST['color']."','".$_POST['brand']."','".$_SESSION['uid']."')";    
+    executeDML("CALL Log('INSERT','cars',".$_SESSION['uid'].")");
+    $success= executeDML($query);
+    if($success){
+        echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+    }
+    else{
+        echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+    }
+}
+
+if(array_key_exists('new_bike_add', $_POST)){
+    $query = "INSERT INTO motorcycles(idMotorC,color,type,brand,owner) "
+            . "VALUES('".$_POST['idBike']."','".$_POST['color']."','".$_POST['type']."','".$_POST['brand']."','".$_SESSION['uid']."')";    
+    executeDML("CALL Log('INSERT','motorcycles',".$_SESSION['uid'].")");
+    $success= executeDML($query);
+    if($success){
+        echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+    }
+    else{
+        echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+    }
+}
