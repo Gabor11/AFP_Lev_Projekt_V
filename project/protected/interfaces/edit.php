@@ -116,3 +116,52 @@ if(array_key_exists('new_bike_add', $_POST)){
     </script>';
     }
 }
+
+if(array_key_exists('deleteHouse', $_POST)){
+    $query = "DELETE FROM houses WHERE idHouse =".$_POST['id_house'];
+    executeDML("CALL Log('DELETE','houses',".$_SESSION['uid'].")");
+    $success = executeDML($query);
+    if($success){
+        echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+    }
+    else{
+        echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+    }
+}
+
+if(array_key_exists('deleteCar', $_POST)){
+    $query = "DELETE FROM cars WHERE idCars =\"".$_POST['id_Car']."\"";
+    executeDML("CALL Log('DELETE','cars',".$_SESSION['uid'].")");
+    $success = executeDML($query);
+    if($success){
+        echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+    }
+    else{
+        echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+    }
+}
+
+if(array_key_exists('deleteBike', $_POST)){
+    $query = "DELETE FROM motorcycles WHERE idMotorC =\"".$_POST['id_Bike']."\"";
+    executeDML("CALL Log('DELETE','motorcycles',".$_SESSION['uid'].")");
+    $success = executeDML($query);
+    if($success){
+        echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+    }
+    else{
+        echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+    }
+}
+
