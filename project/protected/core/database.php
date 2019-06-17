@@ -11,3 +11,18 @@ function getConnection(){
     
 }
  
+function getRecord($query, $params = []){
+    $connection = getConnection();
+    $statement = $connection->prepare($query);
+    
+    $result = [];
+    
+    $success = $statement->execute($params);
+    if($success){
+        $result = $statement->fetch();
+    }    
+    $statement->closeCursor();   
+    $connection = null;    
+    return $result;    
+}
+ 
