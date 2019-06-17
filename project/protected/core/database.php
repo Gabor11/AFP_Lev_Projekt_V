@@ -57,3 +57,12 @@ function getField($query, $params = []){
     return $result;
 }
  
+function executeDML($query, $params = []){
+    $connection = getConnection();
+    $statement = $connection->prepare($query);
+    $success = $statement->execute($params);
+    $statement->closeCursor();
+    $connection = null;
+    
+    return $success;
+}
