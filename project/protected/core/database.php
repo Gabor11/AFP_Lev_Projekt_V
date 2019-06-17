@@ -41,3 +41,19 @@ function getList($query, $params = []){
     return $result;    
 }
  
+function getField($query, $params = []){
+    $connection = getConnection();
+    $statement = $connection->prepare($query);
+    
+    $result = [];
+    $success = $statement->execute($params);
+    if($success){
+        $result = $statement->fetch()[0];
+    }
+    
+    $statement->closeCursor();
+    $connection = null;
+    
+    return $result;
+}
+ 
