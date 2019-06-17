@@ -26,3 +26,18 @@ function getRecord($query, $params = []){
     return $result;    
 }
  
+function getList($query, $params = []){
+    $connection = getConnection();
+    $statement = $connection->prepare($query);
+    
+    $result = [];
+    
+    $success = $statement->execute($params);
+    if($success){
+        $result = $statement->fetchAll();
+    }    
+    $statement->closeCursor();   
+    $connection = null;    
+    return $result;    
+}
+ 
