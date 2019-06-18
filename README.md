@@ -3,7 +3,7 @@ Madarász Zsolt,  Gál Péter, Szobonya Gergő és Matejka Gábor projekt repozi
 
             ____
          <(0   0)>       __
-           /     |\     /   \
+           /   | \      /   \
          (_'_'_)   \__ /      \  ._,>
               |                \/
               /   _       /     |
