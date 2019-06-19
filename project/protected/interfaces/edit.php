@@ -250,3 +250,26 @@ function Bike_data(){
         echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
     }
 }
+
+function House_data(){
+    $data_4 = getDatas('houses');
+    if(!empty($data_4)){
+        $c = 'c_h_';
+        $sz = 1;
+        $a_sz = 1;
+    foreach ($data_4 as $row){
+        echo '<form name="edit_on_house"  method="POST"><tr>';
+        echo '<td id = "'.$c.$sz."_".$a_sz.'" ><input name="size" value="'.$row['size'].'"></td>';
+        echo 
+        '<td>            
+            <button type="submit" name="deleteHouse" >Törlés</button>
+            <button type="submit" name="updateHouse" >Módosít</button>
+            <input name="id_house"  style =" visibility: hidden; width: 1px; height: 1px;" type="text" value="'.$row['idHouse'].'">            
+        </td>';
+        echo '</tr></form>';$sz++;$a_sz = 1;
+        }
+    }
+    else{
+        echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
+    }
+}
