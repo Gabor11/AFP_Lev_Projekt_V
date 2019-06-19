@@ -224,3 +224,29 @@ function Car_data(){
         echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
     }
 }
+
+function Bike_data(){
+    $data_3 = getDatas('motorcycles');
+    if(!empty($data_3)){
+        $c = 'c_b_';
+        $sz = 1;
+        $a_sz = 1;
+    foreach ($data_3 as $row){
+        echo '<form name="edit_on_bike" method="POST" ><tr>';
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="idBike" value="'.$row['idMotorC'].'"></td>';$a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="color" value="'.$row['color'].'"></td>';$a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="brand" value="'.$row['brand'].'"></td>';$a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="type" value="'.$row['type'].'"></td>';
+        echo 
+        '<td>
+            <button type="submit" name="updateBike" >Módosít</button>
+            <button type="submit" name="deleteBike" >Törlés</button>
+            <input name="id_Bike"  style =" visibility: hidden; width: 1px; height: 1px;" type="text" value="'.$row['idMotorC'].'">
+        </td>';
+        echo '</tr></form>';$sz++;$a_sz = 1;
+        }
+    }
+    else{
+        echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
+    }
+}
