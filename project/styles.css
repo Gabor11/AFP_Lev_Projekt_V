@@ -1,3 +1,15 @@
 .gomb{
 	
 }
+
+.l_header{
+   margin-left: 2%;
+   width: 96%;
+   height: 10%;
+   border: black solid 2px;
+   text-align: left;
+   background-color:  darkgray;
+   color: white;
+   font-family: "Arial Black", "Arial", Sans-serif;
+   line-height: 50%;
+}
