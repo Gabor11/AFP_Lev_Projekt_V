@@ -175,3 +175,27 @@ function getMyDatas($table){
     $params = [':uid'=>$_SESSION['uid']];
     return getList($query, $params);
 }
+
+function My_data(){
+    $data_1 = getMyDatas('irldatas');
+    if(!empty($data_1)){
+        $c = 'c_m_';
+        $sz = 1;
+        $a_sz = 1;
+    foreach ($data_1 as $row){
+        echo '<form name="my_on_edit" method="POST" ><tr>';
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="name" value="'.$row['name'].'"></td>'; $a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="age" value="'.$row['age'].'"></td>'; $a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="address" value="'.$row['address'].'"></td>';
+        echo 
+        '<td>
+            <button type="submit" name="updateMy" >Módosít</button>
+            <input   style =" visibility: hidden; width: 0px; height: 0px;" type="text" >
+        </td>';
+        echo '</tr></form>';$sz++;$a_sz = 1;
+        }    
+    }
+    else{
+       echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
+    }
+}
