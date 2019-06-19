@@ -306,3 +306,25 @@ function House_data(){
             </form>
     </div>
 
+    Házaim:<br>
+    <div id="house_div">
+        <table id="t_house" border="1">
+            <?php House_data();?>
+        </table>
+        <p><font style="font-size: 22px;">Új ház hozzáadása:</font><p>
+        <form name="new_f_h" method="POST" >
+            Méret: <input id="size_new_house" name="new_house_size" type="text" onclick="empty_t('size_new_house')" value="Új ház mérete..">
+        <button type="submit" name="new_house_add" >Hozzáad</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    function empty_t(id){
+        document.getElementById(id).value="";
+    }
+    
+    function suc(){
+            alert("Sikerült!");
+    }
+</script>
