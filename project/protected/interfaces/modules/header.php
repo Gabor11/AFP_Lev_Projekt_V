@@ -1,9 +1,11 @@
 <?php if(IsUserLoggedIn()) :?>
 <?php
- echo '<p>nyílvántartás</p>';
- echo '<h2>Személyek-Járművek</h2>';
+ echo '<div id="headerdiv"><div id="upper">nyílvántartás</div><br>';
+ echo '<h2>Személyek-Járművek</h2></div>';
 ?>
 <?php else:?>
-<p>nyílvántartás</p>
+<div id="headerdiv">
+<div id="upper">nyílvántartás</div><br>
 <h2>Személyek-Járművek</h2>
+</div>
 <?php endif;?>
