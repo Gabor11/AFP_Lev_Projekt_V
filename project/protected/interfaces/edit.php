@@ -199,3 +199,28 @@ function My_data(){
        echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
     }
 }
+
+function Car_data(){
+    $data_2 = getDatas('cars');
+    if(!empty($data_2)){
+        $c = 'c_c_';
+        $sz = 1;
+        $a_sz = 1;
+    foreach ($data_2 as $row){
+        echo '<form name="cars_on_edit" method="POST" ><tr>';
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="idCar" value="'.$row['idCars'].'"></td>';$a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="brand" value="'.$row['brand'].'"></td>';$a_sz++;
+        echo '<td id = "'.$c.$sz."_".$a_sz.'"><input name="color" value="'.$row['color'].'"></td>';
+        echo 
+        '<td>
+            <button type="submit" name="updateCar" >Módosít</button>
+            <button type="submit" name="deleteCar" >Törlés</button>
+            <input name="id_Car"  style =" visibility: hidden; width: 1px; height: 1px;" type="text" value="'.$row['idCars'].'">
+        </td>';
+        echo '</tr></form>';$sz++;$a_sz = 1;
+        }
+    }
+    else{
+        echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
+    }
+}
