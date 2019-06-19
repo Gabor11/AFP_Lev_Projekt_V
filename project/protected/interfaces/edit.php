@@ -273,3 +273,22 @@ function House_data(){
         echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
     }
 }
+<div style="overflow-y: scroll; width: 100%; height: 100%;">
+    Személyes adataim:<br>
+    <div id="my_div" ><table id="t_my" border="1">  
+        <?php My_data(); ?>
+        </table>        
+    </div>
+    Autóim módosítása:<br>
+    <div id="car_div">
+        <table id="t_car" border="1">
+            <?php Car_data(); ?>
+        </table>
+        <p><font style="font-size: 22px;">Új autó hozzáadása:</font><p>
+            <form name="new_f_c" method="POST" >
+            Rendszám: <input name="idCar" id="id_new_car" onclick="empty_t('id_new_car')" name="new_car_id" type="text" value="Új autó rendszáma..">
+            Szín: <input name="color" id="color_new_car" onclick="empty_t('color_new_car')" name="new_car_color" type="text" value="Új autó színe..">    
+            Márka: <input name="brand" id="brand_new_car" onclick="empty_t('brand_new_car')" name="new_car_brand" type="text" value="Új autó márkája..">
+            <button type="submit" name="new_car_add" >Hozzáad</button>
+            </form>
+    </div>
