@@ -165,3 +165,13 @@ if(array_key_exists('deleteBike', $_POST)){
     }
 }
 
+function getDatas($table){
+    $query = "SELECT * FROM ".$table." WHERE owner = :uid";
+    $params = [':uid'=>$_SESSION['uid']];
+    return getList($query, $params);
+}
+function getMyDatas($table){
+    $query = "SELECT * FROM ".$table." WHERE userID = :uid";
+    $params = [':uid'=>$_SESSION['uid']];
+    return getList($query, $params);
+}
