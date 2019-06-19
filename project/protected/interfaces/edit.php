@@ -292,3 +292,17 @@ function House_data(){
             <button type="submit" name="new_car_add" >Hozzáad</button>
             </form>
     </div>
+    Motorjaim:<br>
+    <div id="bike_div"><table id="t_bike" border="1">
+        <?php Bike_data(); ?>
+        </table>
+        <p><font style="font-size: 22px;">Új motor hozzáadása:</font><p>
+            <form name="new_f_b" method="POST" >
+            Rendszám: <input name="idBike" id="id_new_bike" onclick="empty_t('id_new_bike')" type="text" value="Új motor rendszáma..">
+            Szín: <input name="color" id="color_new_bike" onclick="empty_t('color_new_bike')" type="text" value="Új motor színe..">
+            Típus: <input name="type" id="type_new_bike" onclick="empty_t('type_new_bike')" type="text" value="Új motor típusa..">
+            Márka: <input name="brand" id="brand_new_bike" onclick="empty_t('brand_new_bike')" type="text" value="Új motor márkája..">
+            <button type="submit" name="new_bike_add" >Hozzáad</button>
+            </form>
+    </div>
+
