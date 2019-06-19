@@ -1,7 +1,6 @@
 .gomb{
 	
 }
-
 .l_header{
    margin-left: 2%;
    width: 96%;
@@ -11,5 +10,12 @@
    background-color:  darkgray;
    color: white;
    font-family: "Arial Black", "Arial", Sans-serif;
-   line-height: 50%;
+}
+#headerdiv {
+	padding-top: 7px;
+	padding-left: 20px;
+	line-height: 20%;
+}
+#upper {
+	color: #9DEECA;
 }
