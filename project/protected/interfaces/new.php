@@ -50,6 +50,30 @@
         }    
     }
     
-   
+   ?>
+<form name="new_member" method="POST"  >
+    <table>
+        <tr>
+            <td>Felhasználó név:</td>
+            <td><input name="userName" type="text" value="" ></td>            
+        </tr>
+        <tr>
+            <td>Jelszó:</td>
+            <td><input name="pw" type="password" value="" ></td>        
+        </tr>
+        <tr>
+           <td>Jelszó újra:</td>
+           <td><input type="password" value="" ></td> 
+        </tr>
+        <tr>
+            <td colspan="2" ><button name="new_tag" type="submit" >Felvétel</button> </td>
+        </tr>
+    
+    </table>
+</form>
+
+<table border ="1" >
+<?php getUsers() ?>
+</table>
     
   
