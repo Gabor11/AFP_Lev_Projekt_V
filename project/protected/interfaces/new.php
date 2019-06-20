@@ -30,3 +30,26 @@
     </script>';
        }
    }
+
+  function getUsersData(){
+    $query = "SELECT * FROM users";
+    return getList($query);
+    }
+   
+  function getUsers(){      
+      $data = getUsersData();
+    foreach ($data as $row){
+        echo '<form name="users_on_edit" method="POST" ><tr>';
+        echo '<td>'.$row['userName'].'</td>';
+        echo 
+        '<td>
+            <button type="submit" name="deleteUser" >Töröl</button>
+            <input name="userID"  style =" visibility: hidden; width: 0px; height: 0px;" type="text" value="'.$row['userID'].'" >
+        </td>';
+        echo '</tr></form>';
+        }    
+    }
+    
+   
+    
+  
