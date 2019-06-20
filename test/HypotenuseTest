@@ -104,3 +104,9 @@ A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának
 	-My_data()
 		A felhasználó adatainak megjelenítését generálja le. 
 		Elvárt eredmény a weboldalon egy táblázat formájában legenerálja nekünk az adatokat. A teszt sikerrel zárult.
+
+#Login.php teszt:
+	A fájl belépés megvalósítását tartalmazza.	
+	-Login()
+		A belépés megvalósítása.
+		Elvárt eredmény az megfelelő adatokkal történő belépés utána a felhasználó saját lapja jelenik meg. A teszt sikerrel zárult.
