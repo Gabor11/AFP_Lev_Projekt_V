@@ -14,3 +14,19 @@
     </script>';
        }
    }
+
+   if(array_key_exists("deleteUser", $_POST)){
+       $query = "DELETE FROM users WHERE userID= ".$_POST['userID'];
+       executeDML("CALL Log('DELETE','users',".$_SESSION['uid'].")");
+       $success = executeDML($query);
+       if($success){
+           echo '<script>
+        alert(\'Sikerült\');
+    </script>';
+       }
+       else{
+           echo '<script>
+        alert(\'Hiba történt!\');
+    </script>';
+       }
+   }
