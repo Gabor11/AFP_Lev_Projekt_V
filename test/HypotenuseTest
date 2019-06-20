@@ -129,3 +129,7 @@ A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának
 #Routing.php teszt:
 	A fájl a különböző menüpontok elérhetőségét tartalmazza.
 	Elvárt eredmény, hogy a megfelelő aloldal-hoz vezessen. A teszt sikerrel zárult.
+
+#Welcome.php teszt:
+	A fájl a felhasználó a saját adatainak megjelenítés tartalmazza.
+	Elvárt eredmény, hogy a felhasználó saját adatai lássa. A teszt sikerrel zárult.
