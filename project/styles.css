@@ -45,3 +45,32 @@ body{
 	line-height:200%;
 	margin: 5px;
 }
+
+.l_content{
+    margin-left: 25%;
+    margin-top: 2%;
+    border: black solid 5px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.content{
+    margin-left: 25%;
+    margin-top: 2%;
+	width: 72%;
+    border: black  solid 5px;
+	background-color: #d0d0d0;
+    height: 65%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.l_footer{
+    margin-top: 11%;
+}
+
+.a_footer{
+    margin-top: 1%;
+}
