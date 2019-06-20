@@ -11,7 +11,7 @@
     $query_4 = "SELECT count(*) FROM HOUSES WHERE owner = :userID";
     $data_4 = getRecord($query_4, $params);
 ?>
-
+<?php if(!empty($_SESSION['uid'])):?>
 <h3>Személyes adatok:</h3>
 <table border="1">
     <tr>
