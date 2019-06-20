@@ -7,17 +7,41 @@ body{
    margin-left: 2%;
    width: 96%;
    height: 10%;
-   border: black solid 2px;
+   border: black solid 5px;
    text-align: left;
    background-color:  darkgray;
    color: white;
    font-family: "Arial Black", "Arial", Sans-serif;
+   font-size: 1.3vw;
 }
+
 #headerdiv {
 	padding-top: 7px;
 	padding-left: 20px;
 	line-height: 20%;
 }
+
 #upper {
 	color: #9DEECA;
+}
+
+.menu{
+    border: black  solid 5px;
+	background-color: #d0d0d0;
+    width: 15%;
+    float: left;
+    margin-top: 2%;
+	margin-left: 2%;
+    text-align: center;
+    padding: 5px;
+}
+
+.button{
+    width: 85%;
+	color: white;
+	background-color: darkgray;
+	border: black solid 5px;
+	border-radius: 5px;
+	line-height:200%;
+	margin: 5px;
 }
