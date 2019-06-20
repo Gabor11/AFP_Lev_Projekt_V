@@ -56,3 +56,51 @@ A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának
 #Menu.php teszt:
 	A fájlban a különböző menüpontok vannak megvalósítva.
 	Elvárt eredmény, hogy adott gombra kattintva át írányítsa a megfelelő aloldalra. A teszt sikerrel zárult.
+
+#Edit.php teszt:
+	A fájlban az egyes adatbázis rekodokat tudjuk módosítani, bizonyos táblákban.
+	
+	-updateMy:
+		Saját adataink frissítése.
+		Elvárt eredmény, miután frissítettük az adatainkat egy felugró ablakban a "Sikerült" felírat megjelenik. A teszt sikerrel zárult.
+
+	-new_house_add:
+		Új ingatlan hozzáadása.
+		Elvárt eredmény, a kitöltés után meg nyomva a gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	
+	-updateHouse:
+		Meglévő ingatlan adatainak a frissítése.
+		Elvárt eredmény, az adatok át írása után megnyomva a gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-deleteHouse:
+		Meglévő ingatlan törlése.
+		Elvárt eredmény adott ingatlannál megnyomva a "Törlés" gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel záruklt.
+	-new_car_add:
+		Új autó hozzáadása.
+		Elvárt eredmény, a kitöltés után meg nyomva a gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.	
+	-updateCar:
+		Meglévő autó adatainak a frissítése.
+		Elvárt eredmény, az adatok át írása után megnyomva a gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-deleteCar:
+		Meglévő autó törlése.
+		Elvárt eredmény adott motornál megnyomva a "Törlés" gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-new_bike_add:
+		Új motor hozzáadása.
+		Elvárt eredmény, a kitöltés után meg nyomva a gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.	
+	-updateBike:
+		Meglévő motor adatainak a frissítése.
+		Elvárt eredmény, az adatok át írása után megnyomva a gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-deleteBike:
+		Meglévő motor törlése.
+		Elvárt eredmény adott motornál megnyomva a "Törlés" gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-House_data()
+		Az ingatlanok adatainak megjelenítését generálja le. 
+		Elvárt eredmény a weboldalon egy táblázat formájában legenerálja nekünk az adatokat. A teszt sikerrel zárult.
+	-Car_data()
+		Az autók adatainak megjelenítését generálja le. 
+		Elvárt eredmény a weboldalon egy táblázat formájában legenerálja nekünk az adatokat. A teszt sikerrel zárult.
+	-Bike_data()
+		Az motorok adatainak megjelenítését generálja le. 
+		Elvárt eredmény a weboldalon egy táblázat formájában legenerálja nekünk az adatokat. A teszt sikerrel zárult.
+	-My_data()
+		A felhasználó adatainak megjelenítését generálja le. 
+		Elvárt eredmény a weboldalon egy táblázat formájában legenerálja nekünk az adatokat. A teszt sikerrel zárult.
