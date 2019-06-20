@@ -1,8 +1,9 @@
-define('ADMIN_URL', 'http://localhost/LibraryC/admin/');
-define('USERS_URL','http://localhost/LibraryC/users/');
-define('DEFAULT_URL','http://localhost/LibraryC/');
+<?php
+define('ADMIN_URL', 'http://localhost/AFP_Lev_Projekt_V/project/admin/');
+define('USERS_URL','http://localhost/AFP_Lev_Projekt_V/project/users/');
+define('DEFAULT_URL','http://localhost/AFP_Lev_Projekt_V/project/');
 define('ADMIN_PROTECTED','../protected/admin/');
-define('INTERFACES','../LibraryC/protected/interfaces/');
+define('INTERFACES','../AFP_Lev_Projekt_V/project/protected/interfaces/');
 define('MODULES',INTERFACES.'modules/');
 define('CHARSET','utf8');
 
