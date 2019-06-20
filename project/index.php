@@ -1,8 +1,8 @@
 <?php
     session_start();
-    require_once '../LibraryC/protected/configs/admin_config.php';
-    require_once '../LibraryC/protected/core/session.php';
-    require_once '../LibraryC/protected/core/database.php';
+    require_once '../project/protected/configs/admin_config.php';
+    require_once '../project/protected/core/session.php';
+    require_once '../project/protected/core/database.php';
    
     ?>  
 
@@ -10,7 +10,7 @@
     <head>
         <title>Nyilvántartás</title>
         <meta charset="<?=CHARSET?>"/>
-        <link href="../LibraryC/styles.css" type="text/css" rel="stylesheet">
+        <link href="../project/styles.css" type="text/css" rel="stylesheet">
     </head>
     <div id="header" class="l_header">
         <?php require_once MODULES.'header.php';?>

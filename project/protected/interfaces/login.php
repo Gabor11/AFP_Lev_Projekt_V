@@ -1,3 +1,4 @@
+<?php
 if(array_key_exists('login', $_POST)){
     $username = $_POST['username'];
     $password = $_POST['password'];

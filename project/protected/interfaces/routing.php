@@ -8,7 +8,7 @@ switch($function){
     case 'new': require_once __DIR__.'/new.php'; break;
     case 'logout': 
         session_destroy();
-        header('Location: http://localhost/LibraryC/');
+        header('Location: http://localhost/AFP_Lev_Projekt_V/project/');
         break;
     default : echo 'A keresett funkció nem található!'; break;
 }

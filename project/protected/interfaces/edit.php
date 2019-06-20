@@ -272,7 +272,7 @@ function House_data(){
     else{
         echo '<tr><td>Nincs megjeleníthető adat!</tr></tr>';
     }
-}
+}?>
 <div style="overflow-y: scroll; width: 100%; height: 100%;">
     Személyes adataim:<br>
     <div id="my_div" ><table id="t_my" border="1">  
