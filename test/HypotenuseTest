@@ -16,3 +16,18 @@ Ezt a tesztet az admin/index.php fájl teljesítette.
 A fájlban a különböző URL-elek globális változókba emeljük. Az adatbázis kapcsolatához szükséges komponenseket is itt definiáljuk.
 Az elvárt eredmény az lenne, hogy a változokat a projecten belül bárhol ellehessen érni.
 Ezt a tesztet az config/admin_config.php fájl teljesítette.
+
+#Database.php teszt:
+
+A fájlban a különböző adatbázissal kapcsolatos metódusokat látjuk.
+
+	-getConnection()
+		Elvárt eredmény az adatbázissal való kapcsolat kiépítése. A teszt sikerrel zárult.
+	-getRecord()
+		Elvárt eredmény a kapcsolódott adatbázisba lévő egy rekordját lekérdezni. A teszt sikerrel zárult.
+	-getList()
+		Elvárt eredmény a kapcsolódott adatbázisba lévő egy tábla adatait listázza ki. A teszt sikerrel zárult.
+	-getField()
+		Elvárt eredmény a kapcsolódott adatbázisba lévő egy tábla mezőneveinek adja vissza. A teszt sikerrel zárult.
+	-executeDML()
+		Elvárt eredmény a kapcsolódott adatbázison végre hajtja az adott SQL utasítást. A teszt sikerrel zárult.
