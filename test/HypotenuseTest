@@ -1,1 +1,18 @@
+#Átfogó tesztelési jegyzőkönyv:
 
+#Alap index.php teszt:
+
+Az elvárt viselekedés, hogy az oldalon a különböző interfészek megjelenjenek.
+Ezt a tesztet a index.php fájl teljesítette.
+
+#Admin index.php teszt:
+
+Az elvár eredmény az lenne, hogy az oldalon a különböző interfészek megjelennek.
+Ezt a tesztet az admin/index.php fájl teljesítette.
+
+
+#Admin_config.php teszt:
+
+A fájlban a különböző URL-elek globális változókba emeljük. Az adatbázis kapcsolatához szükséges komponenseket is itt definiáljuk.
+Az elvárt eredmény az lenne, hogy a változokat a projecten belül bárhol ellehessen érni.
+Ezt a tesztet az config/admin_config.php fájl teljesítette.
