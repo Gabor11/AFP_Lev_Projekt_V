@@ -125,3 +125,7 @@ A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának
 	-getUser()
 		A felhasználó adatainak megjelenítése.
 		Elvárt eredmény a felhasználók adatainak megjelenítése egy táblázat formájában. A teszt sikerrel zárult.
+
+#Routing.php teszt:
+	A fájl a különböző menüpontok elérhetőségét tartalmazza.
+	Elvárt eredmény, hogy a megfelelő aloldal-hoz vezessen. A teszt sikerrel zárult.
