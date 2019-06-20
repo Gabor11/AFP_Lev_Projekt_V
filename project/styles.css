@@ -1,6 +1,8 @@
-.gomb{
-	
+body{
+    background-color:  #4c4c4c;
+	font-family: "Arial Black", "Arial", Sans-serif;
 }
+
 .l_header{
    margin-left: 2%;
    width: 96%;
