@@ -110,3 +110,18 @@ A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának
 	-Login()
 		A belépés megvalósítása.
 		Elvárt eredmény az megfelelő adatokkal történő belépés utána a felhasználó saját lapja jelenik meg. A teszt sikerrel zárult.
+
+#New.php teszt:
+	A fájl a felhasználó hozzáadását a rendszerhez megvalósítását tartalmazza.
+	-new_tag:
+		Az új felhasználó hozzáadásának megvalósítása.
+		Elvárt eredmény a rublikák kitöltése után megnyomva a gombot a "Sikerül" felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-deleteUser:
+		A felhasználók törlésének megvalósítása.
+		Elvárt eredmény adott felhasználónál megnyomva a "Törlés" gombot a "Sikerült" felíratú felugró ablaknak kell megjelenie. A teszt sikerrel zárult.
+	-getUserData()
+		A felhasználók adatainak lekérdezése.
+		Elvárt eredmény a felhasználók adatainak lekérdezése egy listába, amennyiben ez sikerül vissza tér egy igaz értékkel. A teszt sikerrel zárult.
+	-getUser()
+		A felhasználó adatainak megjelenítése.
+		Elvárt eredmény a felhasználók adatainak megjelenítése egy táblázat formájában. A teszt sikerrel zárult.
