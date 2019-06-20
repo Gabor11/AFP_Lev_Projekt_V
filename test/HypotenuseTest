@@ -31,3 +31,12 @@ A fájlban a különböző adatbázissal kapcsolatos metódusokat látjuk.
 		Elvárt eredmény a kapcsolódott adatbázisba lévő egy tábla mezőneveinek adja vissza. A teszt sikerrel zárult.
 	-executeDML()
 		Elvárt eredmény a kapcsolódott adatbázison végre hajtja az adott SQL utasítást. A teszt sikerrel zárult.
+
+#Session.php teszt:
+
+A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának megvalósítását látjuk.
+
+	-Login()
+		Elvárt eredmény az adatbásiz 'users' táblájában lévő felhasználói adatokkal való sikeres belépés. A teszt sikerrel zárult.
+	-IsUserLoggedIn()
+		Elvárt eredmény a belépés után, vissza térjen egy igaz értékkel. A teszt sikerrel zárult.
