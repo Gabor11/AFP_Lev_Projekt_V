@@ -40,3 +40,19 @@ A fájlban a Login() metódus és a van-e belépve felhasználó vizsgálatának
 		Elvárt eredmény az adatbásiz 'users' táblájában lévő felhasználói adatokkal való sikeres belépés. A teszt sikerrel zárult.
 	-IsUserLoggedIn()
 		Elvárt eredmény a belépés után, vissza térjen egy igaz értékkel. A teszt sikerrel zárult.
+
+#Content.php teszt:
+	A fájlban a routing.php meghívása található.
+	Elvárt eredmény, hogy lefusson a routing.php. A teszt sikerrel zárult.
+
+#Footer.php teszt:
+	A fájlban a Kijeletkezés megjelnítése található meg.
+	Elvárt eredmény, hogy a felhasználó kitudjon jelentkezni. A teszt sikerrel zárult.
+
+#Header.php teszt:
+	A fájlban a felhasználó belépése utána a saját profiljának megfelelő fejléc fogadja.
+	Elvárt eredmény, amennyiben sikeresen belépett a felhasználó akkor a saját lapjának megfelelő fejléc fogadja. A teszt sikerrel zárult.
+
+#Menu.php teszt:
+	A fájlban a különböző menüpontok vannak megvalósítva.
+	Elvárt eredmény, hogy adott gombra kattintva át írányítsa a megfelelő aloldalra. A teszt sikerrel zárult.
