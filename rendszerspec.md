@@ -43,4 +43,4 @@ x - Hardver elemekkel kapcsolatos követelmények
 ![](images/dataBase.png)
 
 		
-##Funkció terv
+
